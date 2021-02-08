@@ -1,3 +1,9 @@
+function checkCreds(){
+    var firstName = document.getElementById("fName").value;
+    document.write(firstName);
+
+}
+
 function countdownTimer() {
     var timer = 50;
     //start at 50 sec
